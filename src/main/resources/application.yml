@@ -1,0 +1,7 @@
+# 注意：因为SpringBoot默认的自动配置的数据连接已经满足需求(127.0.0.1:27017\test)
+#  所以其实这里不配置mongoBD也是可以的spring:spring:
+spring:
+  data:
+    mongodb:
+      database: test
+      uri: mongodb://localhost:27017
